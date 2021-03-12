@@ -1,0 +1,26 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "C/C++: g++ build active file",
+			"command": "/usr/bin/g++",
+			"args": [
+				"-g",
+				"\"/Users/MIKE/Desktop/C++ data structure/Array\"/*.cpp",
+				"-o",
+				"main"
+			],
+			"options": {
+				"cwd": "/Users/MIKE/Desktop/C++ data structure/Array"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}

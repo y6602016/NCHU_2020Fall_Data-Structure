@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "bitset": "cpp",
+        "locale": "cpp",
+        "memory": "cpp",
+        "string": "cpp",
+        "__locale": "cpp",
+        "__string": "cpp",
+        "string_view": "cpp"
+    }
+}

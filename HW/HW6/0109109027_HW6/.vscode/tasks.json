@@ -1,0 +1,26 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "C/C++: g++ build active file",
+			"command": "/usr/bin/g++",
+			"args": [
+				"-g",
+				"\"/Users/MIKE/Desktop/C++ data structure/HW/HW6/0109109027_HW6\"/*.cpp",
+				"-o",
+				"main"
+			],
+			"options": {
+				"cwd": "/Users/MIKE/Desktop/C++ data structure/HW/HW6/0109109027_HW6"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}
